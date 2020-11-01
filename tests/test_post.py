@@ -2,7 +2,7 @@ import pytest
 from mimesis import Person
 from .constants import NAME_LONG, SURNAME_LONG
 from .config import API_URL
-from .api_methods.request import create_user
+from api_methods.request import create_user
 
 person = Person('ru')
 

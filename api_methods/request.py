@@ -1,6 +1,6 @@
 import requests
 import json
-from api_service.constants import HEADERS
+from tests.constants import HEADERS
 
 
 def create_user(api_url, params):
