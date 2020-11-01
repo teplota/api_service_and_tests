@@ -1,7 +1,7 @@
 import pytest
 import numpy as np
 from mimesis import Person
-from .config import API_URL, ID_QUANTITY
+from config import API_URL, ID_QUANTITY
 from api_methods.request import create_user, get_all_users
 
 person = Person('ru')

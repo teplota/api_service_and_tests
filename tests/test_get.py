@@ -1,7 +1,7 @@
 import pytest
 from pytest_lazyfixture import lazy_fixture
-from .constants import ID_INVALID
-from .config import API_URL
+from constants import ID_INVALID
+from config import API_URL
 from api_methods.request import get_user_by_id, get_all_users
 
 
